@@ -1,4 +1,4 @@
-#define SAMP_NUM 16
+#define SAMP_NUM 64
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
@@ -25,11 +25,7 @@ float random(vec2 co){
 void main()
 {
 	// Uniforms (hard-coded for now)
-	float samp_num	= 16.;
-	//float radius    = 1.;
-	//float bias      = .4;
-	//float magnitude = 1.;
-	//float contrast  = 2.;
+	float samp_num	= 64.;
 	
 	// Make it happen cap'n
 	vec4 pos = wfdepth(texture2D(gm_BaseTexture, v_vTexcoord).r);

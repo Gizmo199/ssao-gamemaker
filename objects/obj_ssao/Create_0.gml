@@ -49,11 +49,11 @@ blur_on		= true;
 
 // UNIFORMS
 radius		= 1;
-bias		= .6;
-magnitude	= 1.1;
-contrast	= 1.1;
+bias		= .5;
+magnitude	= 1.;
+contrast	= 1.5;
 samples		= [];
-repeat(16) {
+repeat(64) {
 	array_push(samples, random_range(0, 1) * 2 - 1 );
 	array_push(samples, random_range(0, 1) * 2 - 1 );
 	array_push(samples, random_range(0, 1) );
