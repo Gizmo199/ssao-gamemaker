@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Shaders","order":4,"path":"folders/Shaders.yy",},
+    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+    {"name":"Scripts","order":3,"path":"folders/Scripts.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"sh_blur_h","order":2,"path":"shaders/sh_blur_h/sh_blur_h.yy",},
+    {"name":"sh_composite","order":4,"path":"shaders/sh_composite/sh_composite.yy",},
+    {"name":"matrix_inverse","order":2,"path":"scripts/matrix_inverse/matrix_inverse.yy",},
+    {"name":"sh_blur_v","order":3,"path":"shaders/sh_blur_v/sh_blur_v.yy",},
+    {"name":"sh_ssao","order":1,"path":"shaders/sh_ssao/sh_ssao.yy",},
+  ],
+}
